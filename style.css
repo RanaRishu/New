@@ -355,5 +355,27 @@ h2 {
 }
 
 #footer {
-    background-color:#0a0a0a;
+    background-color: #0a0a0a;
+}
+
+.inner1{
+    height: 0;
+    padding-bottom: 35%;
+    /* this sets carousel aspect ratio (4:1 here) */
+}
+
+.item1 {
+    position: absolute !important;
+    /* Bootstrap is insistent */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.item1 img {
+    height: 100%;
+    /* Bootstrap handles width already */
+    object-fit: cover;
+    /* or 'contain' if you want stretch instead of crop */
 }
