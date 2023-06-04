@@ -359,8 +359,8 @@ h2 {
 }
 
 .inner1{
-    height: 0;
-    padding-bottom: 50%;
+    height: 10;
+    padding-bottom: 35%;
     /* this sets carousel aspect ratio (4:1 here) */
 }
 
@@ -369,7 +369,7 @@ h2 {
     /* Bootstrap is insistent */
     top: 0;
     right: 0;
-    bottom: 0;
+    bottom: 10;
     left: 0;
 }
 
