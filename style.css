@@ -379,3 +379,22 @@ h2 {
     object-fit: cover;
     /* or 'contain' if you want stretch instead of crop */
 }
+.yellow-band{
+    margin-top: 100px;
+    /* margin-bottom: 150px; */
+}
+.about-us{
+    margin-top: 50px;
+}
+.color{
+    background-color: #FFD95A;
+}
+#band{
+    padding-bottom: 50px;
+}
+.slider2{
+    padding-bottom: 50px;
+}
+.payment{
+    background-color: #0a0a0a;
+}
